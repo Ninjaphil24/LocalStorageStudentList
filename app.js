@@ -46,7 +46,7 @@ students.forEach(createStudentElement)
 
 studentForm.onsubmit = (e) => {
     e.preventDefault();
-
+    
     const newStudent = addStudent(
         nameInput.value,
         ageInput.value,
